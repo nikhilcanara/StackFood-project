@@ -1,8 +1,9 @@
+import { DiscountBanner } from '@/components/index.jsx';
 import '@/pages/Home/index.css';
 function Home() {
   return (
     <>
-      <p>Home</p>
+      <DiscountBanner />
     </>
   );
 }
