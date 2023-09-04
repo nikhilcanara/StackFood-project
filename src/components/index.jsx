@@ -26,8 +26,10 @@
 // import Languages from '@/components/Languages';
 // import Links from '@/components/Links';
 import DiscountBanner from "@/components/DiscountBanner";
+import SubscribeSection from "@/components/SubscribeSection";
 export {
   DiscountBanner,
+  SubscribeSection,
   // FAQ,
   // Features,
   // Footer,
