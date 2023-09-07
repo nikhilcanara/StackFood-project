@@ -27,9 +27,11 @@
 // import Links from '@/components/Links';
 import DiscountBanner from "@/components/DiscountBanner";
 import SubscribeSection from "@/components/SubscribeSection";
+import GlobalComponent from "@/components/GlobalComponent";
 export {
   DiscountBanner,
   SubscribeSection,
+  GlobalComponent,
   // FAQ,
   // Features,
   // Footer,

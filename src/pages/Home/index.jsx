@@ -1,10 +1,11 @@
-import { DiscountBanner, SubscribeSection } from '@/components/index.jsx';
+import { DiscountBanner, SubscribeSection, GlobalComponent } from '@/components/index.jsx';
 import '@/pages/Home/index.css';
 function Home() {
   return (
     <>
       <DiscountBanner />
       <SubscribeSection />
+      <GlobalComponent />
     </>
   );
 }
