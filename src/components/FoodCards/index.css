@@ -1,0 +1,17 @@
+.global-container {
+    display: flex;
+    padding-inline: 24px;
+    max-width: 1160px;
+    margin: 0 auto;
+}
+
+.global_image_container {
+    /* height: 250px; */
+    border-radius: 5px;
+    /* margin-left: 20px; */
+    margin-right: 20px;
+}
+
+.global_image {
+    width: 100%;
+}
