@@ -3,15 +3,18 @@ import './index.css';
 
 function FoodCards(props) {
     return (
-        <div className="global-container">
-            <div className="global_image_container">
-                <img className="global_image" src={props.title} alt="" />
+        <div className="foodcard-container">
+            <div className="foodcard_image_container">
+                <img className="foodcard_image" src={props.CardImg1} alt="" />
             </div>
-            <div className="global_image_container">
-                <img className="global_image" src={props.img2} alt="" />
+            <div className="foodcard_image_container">
+                <div className="foodcard_image_text_container">
+                    <p className="foodcard_title">{props.title}</p>
+                    <p className="foodcard_subtitle">{props.subtitle}</p>
+                </div>
             </div>
-            <div className="global_image_container">
-                <img className="global_image" src={props.img3} alt="" />
+            <div className="foodcard_image_container">
+                <img className="foodcard_image" src={props.CardImg3} alt="" />
             </div>
         </div>
     );
