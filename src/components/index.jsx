@@ -27,12 +27,13 @@
 // import Links from '@/components/Links';
 import SubscribeSection from "@/components/SubscribeSection";
 import GlobalComponent from "@/components/GlobalComponent";
+import FooterSection from '@/components/Footer';
 export {
   SubscribeSection,
   GlobalComponent,
+  FooterSection,
   // FAQ,
   // Features,
-  // Footer,
   // Header,
   // Hero,
   // TemplatesCarousel,

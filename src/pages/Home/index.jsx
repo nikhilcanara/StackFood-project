@@ -1,10 +1,11 @@
-import { SubscribeSection, GlobalComponent } from '@/components/index.jsx';
+import { SubscribeSection, GlobalComponent, FooterSection } from '@/components/index.jsx';
 import '@/pages/Home/index.css';
 function Home() {
   return (
     <>
       <GlobalComponent />
       <SubscribeSection />
+      <FooterSection />
     </>
   );
 }

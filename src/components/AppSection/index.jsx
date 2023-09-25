@@ -1,6 +1,6 @@
 import react from "react";
 import './index.css';
-
+import AppStoreImage from '@/components/AppSection/AppStoreImage';
 function AppSection(props) {
     return (
         <div className="app_section_container">
@@ -15,14 +15,7 @@ function AppSection(props) {
                         <p className="app_download_title">{props.AppDownloadTitle}</p>
                         <p className="app_download_subtitle">{props.AppDownloadSubtitle}</p>
                         <p className="app_download_discription">{props.AppDownloadDiscription}</p>
-                        <div className="app_download_appstore_section">
-                            <div className="appstore_container">
-                                <img className="appstore_image" src={props.GooglePlayStoreImg} alt="GooglePlayStoreImg" />
-                            </div>
-                            <div className="appstore_container">
-                                <img className="appstore_image" src={props.AppStoreImg} alt="AppStoreImg" />
-                            </div>
-                        </div>
+                        <AppStoreImage image1={props.GooglePlayStoreImg} image2={props.AppStoreImg} />
                     </div>
                 </div>
             </div>
@@ -31,3 +24,5 @@ function AppSection(props) {
 }
 
 export default AppSection;
+
+

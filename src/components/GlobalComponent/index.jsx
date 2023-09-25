@@ -1,4 +1,4 @@
-import './index.css';
+import '@/components/GlobalComponent/index.css';
 import FoodCards from "@/components/FoodCards";
 import CardImg1 from '@/components/FoodCards/images/CardImg1.png';
 import CardImg3 from '@/components/FoodCards/images/CardImg3.png';
@@ -15,6 +15,7 @@ import DeliveryTrack from '@/components/DeliveryTrack';
 import TrackImage from '@/components/DeliveryTrack/images/TrackImage.png';
 import ScooterImage from '@/components/DeliveryTrack/images/ScooterImage.png';
 import ServiceImage from '@/components/DeliveryTrack/images/ServiceImage.png';
+
 
 const FoodProps = {
     CardImg1: CardImg1,

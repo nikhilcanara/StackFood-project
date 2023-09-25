@@ -1,0 +1,19 @@
+.app_download_appstore_section {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    margin-top: 16px;
+}
+
+.appstore_container {
+    width: 153px;
+    height: 50px;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px
+}
+
+.appstore_image {
+    width: 100%;
+    height: 100%;
+}
